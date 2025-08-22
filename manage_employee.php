@@ -23,6 +23,14 @@ if(isset($_GET['id'])){
 			<label>Lastname:</label>
 			<input type="text" name="lastname" required="required" class="form-control" value="<?php echo isset($lastname) ? $lastname : "" ?>" />
 		</div>
+			<div class="form-group">
+			<label>Gender</label>
+			  <select class="custom-select browser-default select2" name="gender">
+        <option value="" <?php echo empty($gender) ? 'selected' : ''; ?>>Select</option>
+        <option value="Male" <?php echo (isset($gender) && $gender == 'Male') ? 'selected' : ''; ?>>Male</option>
+        <option value="Female" <?php echo (isset($gender) && $gender == 'Female') ? 'selected' : ''; ?>>Female</option>
+    </select>
+		</div>
 		<div class="form-group">
 			<label>Department</label>
 			<select class="custom-select browser-default select2" name="department_id">

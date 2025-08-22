@@ -33,7 +33,12 @@ ob_start();
     table { border-collapse: collapse; width: 100%; margin-top: 5px; }
     th, td { border: 1px solid #000; padding: 5px; }
     .section-title { background-color: #f2f2f2; font-weight: bold; }
+    .logo { text-align:center; margin-bottom:10px; }
 </style>
+
+<div class="logo">
+    <img src="images/lascon.jpg" width="100">
+</div>
 
 <h4>Employee Payslip</h4>
 <h5><b>Employee ID: </b> <?php echo $employee_no; ?></h5>

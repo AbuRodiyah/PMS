@@ -134,6 +134,7 @@ Class Action {
 		$data =" firstname='$firstname' ";
 		$data .=", middlename='$middlename' ";
 		$data .=", lastname='$lastname' ";
+		$data .=", gender='$gender' ";
 		$data .=", position_id='$position_id' ";
 		$data .=", department_id='$department_id' ";
 		$data .=", salary='$salary' ";

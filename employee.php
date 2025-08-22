@@ -9,7 +9,7 @@
 						<span><b>Employee List</b></span>
 						<button class="btn btn-primary btn-sm btn-block col-md-3 float-right" type="button" id="new_emp_btn"><span class="fa fa-plus"></span> Add Employee</button>
 					</div>
-					<div class="card-body">
+					<div class="card-body" style="font-size: 13px; font-weight: normal;">
 						<table id="table" class="table table-bordered table-striped">
 							<thead>
 								<tr>
